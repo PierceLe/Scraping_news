@@ -1,0 +1,10 @@
+services:
+  python:
+    image: python:3.10.13-slim-bookworm
+    volumes:
+      - ./mount_folder:/home
+    tty: True
+    stdin_open: True
+
+
+
